@@ -12,7 +12,7 @@ namespace ProjectAdministration.Core.Models
         }
 
         public int StatusId { get; set; }
-        public int? CompletedPercentage { get; set; }
+        public int CompletedPercentage { get; set; }
         public string Description { get; set; }
 
         public ICollection<Project> Project { get; set; }

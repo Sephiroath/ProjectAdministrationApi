@@ -17,4 +17,11 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectAdministration.Core\ProjectAdministration.Core.csproj" />
+    <ProjectReference Include="..\ProjectAdministration.Helpers\ProjectAdministration.Helpers.csproj" />
+    <ProjectReference Include="..\ProjectAdministration.Infrastructure\ProjectAdministration.Infrastructure.csproj" />
+    <ProjectReference Include="..\ProjectAdministration.Service\ProjectAdministration.Service.csproj" />
+  </ItemGroup>
+
 </Project>
