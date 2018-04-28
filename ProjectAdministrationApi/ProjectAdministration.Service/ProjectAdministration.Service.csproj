@@ -12,4 +12,8 @@
     <ProjectReference Include="..\ProjectAdministration.Core\ProjectAdministration.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MailService\" />
+  </ItemGroup>
+
 </Project>
